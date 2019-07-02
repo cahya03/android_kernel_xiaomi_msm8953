@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm64 3.18.137 Kernel Configuration
+# Linux/arm64 3.18.140 Kernel Configuration
 #
 CONFIG_ARM64=y
 CONFIG_64BIT=y
@@ -4233,7 +4233,7 @@ CONFIG_SECURITY_SELINUX_CHECKREQPROT_VALUE=1
 # CONFIG_SECURITY_TOMOYO is not set
 # CONFIG_SECURITY_APPARMOR is not set
 # CONFIG_SECURITY_YAMA is not set
-CONFIG_INTEGRITY=y
+# CONFIG_INTEGRITY is not set
 # CONFIG_INTEGRITY_SIGNATURE is not set
 CONFIG_INTEGRITY_AUDIT=y
 # CONFIG_IMA is not set

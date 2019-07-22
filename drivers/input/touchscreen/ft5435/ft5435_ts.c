@@ -1487,7 +1487,6 @@ static int ft5435_ts_suspend(struct device *dev)
 		input_mt_report_slot_state(data->input_dev, MT_TOOL_FINGER, 0);
 	}
 	input_mt_report_pointer_emulation(data->input_dev, false);
-	__clear_bit(BTN_TOUCH, data->input_dev->keybit);
 	input_sync(data->input_dev);
 
 #if defined(FOCALTECH_TP_GESTURE)
@@ -1533,7 +1532,6 @@ static int ft5435_ts_resume(struct device *dev)
 
 	/* release all touches */
 	input_mt_report_slot_state(data->input_dev, MT_TOOL_FINGER, 0);
-	__set_bit(BTN_TOUCH, data->input_dev->keybit);
 	input_sync(data->input_dev);
 
 	/*hw rst*/

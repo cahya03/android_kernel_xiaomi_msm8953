@@ -1,0 +1,13 @@
+**Kernel: Underground Kernel**
+
+Device: Redmi Note 4(X) Snapdragon (mido)
+Compiler: AOSP Clang **10.0.5**
+
+- Latest Linux kernel updates from android-3.18 common tree (synced with sources up to **March 26**, 2020).
+- Reconfigured thermal zones
+- Kernel can be installed on android 8.1, 9 and 10
+- **If you want to change to another custom kernel on android 10:**
+  - **You have to flash Underground-uninstaller.zip and stock boot.img (from your ROM.zip)**
+  - After that you can flash Magisk and other custom kernel
+- Do not use FKM OTA updates over the other custom kernels!
+- You can use it with stock or Underground kernel only!

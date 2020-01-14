@@ -1,0 +1,14 @@
+{
+  "kernel": {
+    "name": "Underground Kernel",
+    "version": "r56",
+    "link": "https://github.com/Zile995/android_kernel_xiaomi_msm8953/releases/download/r56/UndergroundKernel-mido-20200716.zip",
+    "changelog_url": "https://raw.githubusercontent.com/Zile995/android_kernel_xiaomi_msm8953/oreo-mr1/updater/changelog",
+    "date": "2020-07-16",
+    "sha1": "13ec68a0aa01f6ff6b2f5f584b06a255e4c15d4d"
+  },
+  "support": {
+    "link": "https://t.me/rn4official"
+  }
+}
+

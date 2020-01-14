@@ -1,0 +1,9 @@
+Kernel: Underground Kernel
+Type: STABLE
+Device: Redmi Note 4(X) Snapdragon (mido)
+Compiler: AOSP Clang 10.0.1
+Branch: oreo-mr1
+
+- Latest Linux kernel updates from android-3.18 common tree (synced with sources up to January 13, 2020)
+- Anykernel3 updates
+- Added support for FKM OTA kernel updates

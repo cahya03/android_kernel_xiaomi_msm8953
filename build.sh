@@ -31,7 +31,7 @@ else
 fi
 
 # Defconfig
-DEFCONFIG="mido_defconfig"
+DEFCONFIG="franco_mido_defconfig"
 REGENERATE_DEFCONFIG="true" # unset if don't want to regenerate defconfig
 
 # Costumize

@@ -31,7 +31,7 @@ else
 fi
 
 # Defconfig
-# DEFCONFIG="franco_mido_defconfig"
+ DEFCONFIG="franco_mido_defconfig"
 # REGENERATE_DEFCONFIG="true" # unset if don't want to regenerate defconfig
 
 # Costumize
@@ -89,7 +89,7 @@ makekernel() {
 	    END=$(date +"%s")
 	    DIFF=$(( END - START ))
 	    echo -e "Kernel compilation failed, See buildlog to fix errors"
-	    tg_cast "Build for ${DEVICE} <b>failed</b> in $((DIFF / 60)) minute(s) and $((DIFF % 60)) second(s)! Check Instance for errors @azrim89"
+	    tg_cast "Build for ${DEVICE} <b>failed</b> in $((DIFF / 60)) minute(s) and $((DIFF % 60)) second(s)! Check Instance for errors @cahya03"
 	    exit 1
     fi
 }

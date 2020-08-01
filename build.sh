@@ -31,8 +31,8 @@ else
 fi
 
 # Defconfig
-DEFCONFIG="franco_mido_defconfig"
-REGENERATE_DEFCONFIG="true" # unset if don't want to regenerate defconfig
+# DEFCONFIG="franco_mido_defconfig"
+# REGENERATE_DEFCONFIG="true" # unset if don't want to regenerate defconfig
 
 # Costumize
 KERNEL="SiLonT"
